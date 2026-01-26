@@ -1,0 +1,29 @@
+@mixin index-rules{
+    background-color: #fcecc8;
+    align-content: center;
+    align-items: center;
+
+    .dashboard-container{
+        height: 70vh;
+        width: 80%;
+        background-color: #ffffff;
+        margin: auto;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        flex-direction: row;
+    }
+    .preformanceIndex{
+        width: 20%;
+        border: solid 1px #000000;
+    }
+    .preformanceiframe{
+        width: 80%;
+        border: solid 1px #000000;
+    }
+    .preformanceiframe iframe{
+        height: 100%;
+        width: 100%;
+        border: none;
+    }
+}

@@ -1,0 +1,17 @@
+@use 'dashboard-template';
+@mixin ants-rules{
+    @include dashboard-template.dashboard-layout();
+    .ants-overview{
+        @include dashboard-template.overview();
+    }
+    .ants-overview div{
+        @include dashboard-template.overview-content();
+    }
+    .ants-detailed{
+        @include dashboard-template.detailed();
+    }
+    .ants-detailed div{
+        @include dashboard-template.detailed-content();
+    }
+}
+

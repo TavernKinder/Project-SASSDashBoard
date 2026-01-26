@@ -1,0 +1,39 @@
+
+@mixin dashboard-layout{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+@mixin overview{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    width: 100%;
+    background-color: red;
+}
+
+@mixin overview-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+    background-color: green;
+}
+
+@mixin detailed{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
+    background-color: blue; 
+}
+
+@mixin detailed-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 33.33%;
+    background-color: yellow;
+}

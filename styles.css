@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+}
+
+body.index-page {
+  background-color: #fcecc8;
+  align-content: center;
+  align-items: center;
+}
+body.index-page .dashboard-container {
+  height: 70vh;
+  width: 80%;
+  background-color: #ffffff;
+  margin: auto;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  flex-direction: row;
+}
+body.index-page .preformanceIndex {
+  width: 20%;
+  border: solid 1px #000000;
+}
+body.index-page .preformanceiframe {
+  width: 80%;
+  border: solid 1px #000000;
+}
+body.index-page .preformanceiframe iframe {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+body.ants-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+body.ants-page .ants-overview {
+  display: flex;
+  flex-direction: row;
+  height: 20%;
+  width: 100%;
+  background-color: red;
+}
+body.ants-page .ants-overview div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 25%;
+  background-color: green;
+}
+body.ants-page .ants-detailed {
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  width: 100%;
+  background-color: blue;
+}
+body.ants-page .ants-detailed div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 33.33%;
+  background-color: yellow;
+}/*# sourceMappingURL=styles.css.map */
