@@ -1,0 +1,23 @@
+@use 'dashboard-template';
+@use 'var';
+@mixin bee-rules{
+    @include dashboard-template.dashboard-layout();
+    color: var.$bee-accent-color;
+    background-color: var.$bee-primary-color;
+    sb {
+        color: var.$bee-accent-color-light;
+        translate: 0 -20px;
+    }
+    .bee-overview{
+        @include dashboard-template.overview();
+    }
+    .bee-overview div{
+        @include dashboard-template.overview-content(var.$bee-secondary-color);
+    }
+    .bee-detailed{
+        @include dashboard-template.detailed();
+    }
+    .bee-detailed> div{
+        @include dashboard-template.detailed-content(var.$bee-secondary-color);
+    }
+}

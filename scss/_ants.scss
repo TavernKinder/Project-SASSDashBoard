@@ -1,17 +1,24 @@
 @use 'dashboard-template';
+@use 'var';
 @mixin ants-rules{
     @include dashboard-template.dashboard-layout();
+    color: var.$ant-accent-color;
+    background-color: var.$ant-primary-color;
+    sb {
+        color: var.$ant-accent-color-light;
+        translate: 0 -20px;
+    }
     .ants-overview{
         @include dashboard-template.overview();
     }
     .ants-overview div{
-        @include dashboard-template.overview-content();
+        @include dashboard-template.overview-content(var.$ant-secondary-color);
     }
     .ants-detailed{
         @include dashboard-template.detailed();
     }
-    .ants-detailed div{
-        @include dashboard-template.detailed-content();
+    .ants-detailed> div{
+        @include dashboard-template.detailed-content(var.$ant-secondary-color);
     }
 }
 

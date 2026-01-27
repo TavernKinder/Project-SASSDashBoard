@@ -1,0 +1,23 @@
+@use 'dashboard-template';
+@use 'var';
+@mixin worm-rules{
+    @include dashboard-template.dashboard-layout();
+    color: var.$worm-accent-color;
+    background-color: var.$worm-primary-color;
+    sb {
+        color: var.$worm-accent-color-light;
+        translate: 0 -20px;
+    }
+    .worm-overview{
+        @include dashboard-template.overview();
+    }
+    .worm-overview div{
+        @include dashboard-template.overview-content(var.$worm-secondary-color);
+    }
+    .worm-detailed{
+        @include dashboard-template.detailed();
+    }
+    .worm-detailed> div{
+        @include dashboard-template.detailed-content(var.$worm-secondary-color);
+    }
+}
