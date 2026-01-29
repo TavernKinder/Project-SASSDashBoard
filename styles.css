@@ -3,6 +3,10 @@ body {
   padding: 0;
   height: 100vh;
   display: flex;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 body.index-page {
@@ -105,13 +109,16 @@ body.ants-page .ants-overview div {
   outline: 1px solid #732002;
 }
 body.ants-page .ants-overview div img {
-  display: inline;
   margin: 0px;
   -o-object-position: left;
      object-position: left;
-  -o-object-fit: contain;
-     object-fit: contain;
-  -webkit-backface-visibility: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 60%;
+  width: 35%;
+  aspect-ratio: 1/1;
+  backface-visibility: hidden;
+  border: solid black 1px;
 }
 body.ants-page .ants-overview div h1 {
   margin: 5px;
@@ -179,13 +186,16 @@ body.bee-page .bee-overview div {
   outline: 1px solid #D97904;
 }
 body.bee-page .bee-overview div img {
-  display: inline;
   margin: 0px;
   -o-object-position: left;
      object-position: left;
-  -o-object-fit: contain;
-     object-fit: contain;
-  -webkit-backface-visibility: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 60%;
+  width: 35%;
+  aspect-ratio: 1/1;
+  backface-visibility: hidden;
+  border: solid black 1px;
 }
 body.bee-page .bee-overview div h1 {
   margin: 5px;
@@ -253,13 +263,16 @@ body.worm-page .worm-overview div {
   outline: 1px solid #3f2626;
 }
 body.worm-page .worm-overview div img {
-  display: inline;
   margin: 0px;
   -o-object-position: left;
      object-position: left;
-  -o-object-fit: contain;
-     object-fit: contain;
-  -webkit-backface-visibility: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 60%;
+  width: 35%;
+  aspect-ratio: 1/1;
+  backface-visibility: hidden;
+  border: solid black 1px;
 }
 body.worm-page .worm-overview div h1 {
   margin: 5px;

@@ -7,6 +7,10 @@ body{
     padding: 0;
     height: 100vh;
     display: flex;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 body.index-page{
     @include index.index-rules();

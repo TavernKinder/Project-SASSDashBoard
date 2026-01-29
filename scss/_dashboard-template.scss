@@ -20,11 +20,14 @@
     width: 25%;
     outline: 1px solid $border-color;
     img{
-        display:inline;
         margin: 0px;
         object-position: left;
-        object-fit: contain;
-        -webkit-backface-visibility: hidden;
+        object-fit: cover;
+        height: 60%;
+        width: 35%;
+        aspect-ratio: 1/1;
+        backface-visibility: hidden;
+        border: solid black 1px;
     }
     h1  {
         margin: 5px;
