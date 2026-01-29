@@ -1,15 +1,42 @@
 @use 'scss/index';
 @use 'scss/ants';
-
+@use 'scss/bee';
+@use 'scss/worm';
 body{
     margin: 0;
     padding: 0;
     height: 100vh;
     display: flex;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 body.index-page{
     @include index.index-rules();
 }
 body.ants-page{
     @include ants.ants-rules();
+}
+body.bee-page{
+    @include bee.bee-rules();
+}
+body.worm-page{
+    @include worm.worm-rules();
+}
+.align-text-right{
+    text-align: right;
+}
+div img{
+    margin: auto;
+    width: 99%;
+    height: 75%;
+    object-fit: scale-down;
+}
+
+.good{
+    color: green;
+}
+.bad{
+    color: red;
 }

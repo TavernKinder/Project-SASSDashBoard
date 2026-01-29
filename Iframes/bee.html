@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buzz Corp</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="../scripts/bee-stock.js" defer></script>
+</head>
+<body class="bee-page">
+    <div class="bee-overview">
+        <div>
+            <img src="../img/buzz_logo.png" alt="bee logo">
+            <p class="company-name">Buzz Inc.</p>
+        </div>
+        <div>
+            <h2>Profits</h2>
+            <p>135000$</p>
+        </div>
+        <div>
+            <h2>Honey Sales</h2>
+            <p>1500 Jars</p>
+        </div>
+        <div>
+            <h2>Queen:</h2>
+            <p class="bad">Angry</p>
+        </div>
+    </div>
+    <div class="bee-detailed">
+        <div>
+            <h2>Profits</h2>
+            <h5>(last 30 days)</h5>
+            <h3>$135000</h3>
+            <h4>Revenue</h4>
+            <p>$140000</p>
+            <h4>Expences</h4>
+            <p>$5000</p>
+        </div>
+        <div>
+            <h2>Honey sales:</h2>
+            <h5>(last 30 days)</h5>
+            <h3>1500 jars</h3>
+            <h4>Last period</h4>
+            <p>1000 jars</p>
+            <h4>Last 6 Months</h4>
+            <p>3000 jars</p>
+        </div>
+        <div>
+            <div>
+            <h2>Stock Price</h2>
+            <h3 id="beeStockPrice"></h3>
+            <div style="width:100%;max-width:600px;margin-top:8px;">
+            <canvas id="beeStockChart" aria-label="Buzz Inc. stock chart" role="img"></canvas>
+            </div>
+            <h2>Queen Status:</h2>
+            <h3 class="bad">Angry</h3>
+            <h4>Honey Consumed:</h4>
+            <p>5 jars</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

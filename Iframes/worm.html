@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worm Company</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="../scripts/worm-stock.js" defer></script>
+</head>
+<body class="worm-page">
+    <div class="worm-overview">
+        <div>
+            <img src="../img/worm_logo.png" alt="worm logo">
+            <p class="company-name">Worm Co.</p>
+        </div>
+        <div>
+            <h2>Profits</h2>
+            <p>$9999999999999999</p>
+        </div>
+        <div>
+            <h2>Dirt Sales</h2>
+            <p>50000 Pounds</p>
+        </div>
+        <div>
+            <h2>Boss:</h2>
+            <p class="good">Worm</p>
+        </div>
+    </div>
+    <div class="worm-detailed">
+        <div>
+            <h2>Profits</h2>
+            <h5>(last 30 days)</h5>
+            <h3>$9999999999999999</h3>
+            <h4>Revenue</h4>
+            <p>$1000000000000000</p>
+            <h4>Expences</h4>
+            <p>1</p>
+        </div>
+        <div>
+            <h2>Dirt sales:</h2>
+            <h5>(last 30 days)</h5>
+            <h3>50000 pounds</h3>
+            <h4>Last period</h4>
+            <p>40000 pounds</p>
+            <h4>Last 6 Months</h4>
+            <p>43635132413000 pounds</p>
+        </div>
+        <div>
+            <div>
+            <h2>Stock Price</h2>
+            <h3 id="wormStockPrice"></h3>
+            <div style="width:100%;max-width:600px;margin-top:8px;">
+                <canvas id="wormStockChart" aria-label="Worm Co. stock chart" role="img"></canvas>
+            </div>
+            <h2>Boss Status:</h2>
+            <h3 class="good">Worm</h3>
+            <h4>Dirt Eaten:</h4>
+            <p>50000 Pounds</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
