@@ -4,7 +4,7 @@
     @include dashboard-template.dashboard-layout();
     color: var.$worm-accent-color;
     background-color: var.$worm-primary-color;
-    sb {
+    h5 {
         color: var.$worm-accent-color-light;
         translate: 0 -20px;
     }

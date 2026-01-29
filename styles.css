@@ -37,14 +37,18 @@ body.index-page .preformanceIndex {
   gap: 0.5rem;
 }
 body.index-page .index-button {
+  text-decoration: none;
+  display: inline-block;
   color: #000000;
   background-color: #fcecc8;
   padding-top: 10px;
   padding-bottom: 10px;
+  border: 1px solid #000000;
 }
 body.index-page .index-button:hover {
   color: #f0f0f0;
   background-color: #031337;
+  border: 1px solid #f0f0f0;
 }
 body.index-page .preformanceiframe {
   width: 85%;
@@ -91,7 +95,7 @@ body.ants-page {
   color: #200000;
   background-color: #D98C4A;
 }
-body.ants-page sb {
+body.ants-page h5 {
   color: rgba(32, 0, 0, 0.5333333333);
   translate: 0 -20px;
 }
@@ -112,10 +116,11 @@ body.ants-page .ants-overview div img {
   margin: 0px;
   -o-object-position: left;
      object-position: left;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
   height: 60%;
-  width: 35%;
+  width: -moz-fit-content;
+  width: fit-content;
   aspect-ratio: 1/1;
   backface-visibility: hidden;
   border: solid black 1px;
@@ -144,7 +149,7 @@ body.ants-page .ants-detailed > div {
   width: 33.33%;
   outline: 1px solid #732002;
 }
-body.ants-page .ants-detailed > div h2, body.ants-page .ants-detailed > div h3, body.ants-page .ants-detailed > div h4, body.ants-page .ants-detailed > div sb {
+body.ants-page .ants-detailed > div h2, body.ants-page .ants-detailed > div h3, body.ants-page .ants-detailed > div h4, body.ants-page .ants-detailed > div h5 {
   margin: 10px;
 }
 body.ants-page .ants-detailed > div h3 {
@@ -168,7 +173,7 @@ body.bee-page {
   color: #202200;
   background-color: #F2B705;
 }
-body.bee-page sb {
+body.bee-page h5 {
   color: rgba(32, 34, 0, 0.5333333333);
   translate: 0 -20px;
 }
@@ -189,10 +194,11 @@ body.bee-page .bee-overview div img {
   margin: 0px;
   -o-object-position: left;
      object-position: left;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
   height: 60%;
-  width: 35%;
+  width: -moz-fit-content;
+  width: fit-content;
   aspect-ratio: 1/1;
   backface-visibility: hidden;
   border: solid black 1px;
@@ -221,7 +227,7 @@ body.bee-page .bee-detailed > div {
   width: 33.33%;
   outline: 1px solid #D97904;
 }
-body.bee-page .bee-detailed > div h2, body.bee-page .bee-detailed > div h3, body.bee-page .bee-detailed > div h4, body.bee-page .bee-detailed > div sb {
+body.bee-page .bee-detailed > div h2, body.bee-page .bee-detailed > div h3, body.bee-page .bee-detailed > div h4, body.bee-page .bee-detailed > div h5 {
   margin: 10px;
 }
 body.bee-page .bee-detailed > div h3 {
@@ -245,7 +251,7 @@ body.worm-page {
   color: #000000;
   background-color: #ef9393;
 }
-body.worm-page sb {
+body.worm-page h5 {
   color: rgba(0, 0, 0, 0.5333333333);
   translate: 0 -20px;
 }
@@ -266,10 +272,11 @@ body.worm-page .worm-overview div img {
   margin: 0px;
   -o-object-position: left;
      object-position: left;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
   height: 60%;
-  width: 35%;
+  width: -moz-fit-content;
+  width: fit-content;
   aspect-ratio: 1/1;
   backface-visibility: hidden;
   border: solid black 1px;
@@ -298,7 +305,7 @@ body.worm-page .worm-detailed > div {
   width: 33.33%;
   outline: 1px solid #3f2626;
 }
-body.worm-page .worm-detailed > div h2, body.worm-page .worm-detailed > div h3, body.worm-page .worm-detailed > div h4, body.worm-page .worm-detailed > div sb {
+body.worm-page .worm-detailed > div h2, body.worm-page .worm-detailed > div h3, body.worm-page .worm-detailed > div h4, body.worm-page .worm-detailed > div h5 {
   margin: 10px;
 }
 body.worm-page .worm-detailed > div h3 {

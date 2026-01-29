@@ -22,9 +22,9 @@
     img{
         margin: 0px;
         object-position: left;
-        object-fit: cover;
+        object-fit: fill;
         height: 60%;
-        width: 35%;
+        width:fit-content;
         aspect-ratio: 1/1;
         backface-visibility: hidden;
         border: solid black 1px;
@@ -55,7 +55,7 @@
     height: 100%;
     width: 33.33%;
     outline: 1px solid $border-color;
-    h2, h3, h4, sb{
+    h2, h3, h4, h5{
         margin: 10px;
     }
     h3 {

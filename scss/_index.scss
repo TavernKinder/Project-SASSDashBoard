@@ -29,14 +29,18 @@
         gap: 0.5rem;
     }
     .index-button {
+        text-decoration: none;
+        display: inline-block;
         color: var.$index-accent-color;
         background-color: var.$index-secondary-color;
         padding-top: 10px;
         padding-bottom: 10px;
+        border:1px solid var.$index-accent-color;
     }
     .index-button:hover{
         color: var.$index-primary-color ;
         background-color: var.$index-button-hover-color;
+        border: 1px solid var.$index-primary-color ;
     }
 
     .preformanceiframe{
