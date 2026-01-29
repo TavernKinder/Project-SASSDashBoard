@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Worm Company</title>
     <link rel="stylesheet" href="../styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="../scripts/worm-stock.js" defer></script>
 </head>
 <body class="worm-page">
     <div class="worm-overview">
-        <div><img alt="worm logo"></div>
         <div>
-            <h1>Profits</h1>
+            <img src="../img/worm_logo.png" alt="worm logo">
+            <p class="company-name">Worm Co.</p>
+        </div>
+        <div>
+            <h2>Profits</h2>
             <p>$9999999999999999</p>
         </div>
         <div>
-            <h1>Dirt Sales</h1>
+            <h2>Dirt Sales</h2>
             <p>50000 Pounds</p>
         </div>
         <div>
-            <h1>Boss:</h1>
+            <h2>Boss:</h2>
             <p class="good">Worm</p>
         </div>
     </div>
@@ -42,14 +47,16 @@
             <p>43635132413000 pounds</p>
         </div>
         <div>
+            <div>
+            <h2>Stock Price</h2>
+            <h3 id="wormStockPrice"></h3>
+            <div style="width:100%;max-width:600px;margin-top:8px;">
+                <canvas id="wormStockChart" aria-label="Worm Co. stock chart" role="img"></canvas>
+            </div>
             <h2>Boss Status:</h2>
             <h3 class="good">Worm</h3>
             <h4>Dirt Eated:</h4>
             <p>50000 Pounds</p>
-            <div>
-                <h2>Stock Price</h2>
-                <h3>$10000000.02</h3>
-                <img src="../img/stock_ticker.png" alt="stock price graph">
             </div>
         </div>
     </div>

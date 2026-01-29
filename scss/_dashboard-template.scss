@@ -19,12 +19,22 @@
     height: 100%;
     width: 25%;
     outline: 1px solid $border-color;
+    img{
+        display:inline;
+        margin: 0px;
+        object-position: left;
+        object-fit: contain;
+        -webkit-backface-visibility: hidden;
+    }
     h1  {
         margin: 5px;
     }
     p {
         text-align: end;
         margin-right: 5px;
+    }
+    .company-name{
+        margin-block: 5px;
     }
 }
 

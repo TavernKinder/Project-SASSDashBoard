@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ants Industires</title>
     <link rel="stylesheet" href="../styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="../scripts/ants-stock.js" defer></script>
 </head>
 <body class="ants-page">
     <div class="ants-overview">
-        <div><img alt="ants logo"></div>
         <div>
-            <h1>Profits</h1>
+            <img alt="ants logo">
+        </div>
+        <div>
+            <h2>Profits</h2>
             <p>1$</p>
         </div>
         <div>
-            <h1>Sugar Sales</h1>
+            <h2>Sugar Sales</h2>
             <p>2000 Crates</p>
         </div>
         <div>
-            <h1>Queen:</h1>
+            <h2>Queen:</h2>
             <p class="good">Appeased</p>
         </div>
     </div>
@@ -42,15 +46,16 @@
             <p>3000000 crates</p>
         </div>
         <div>
+            <div>
+            <h2>Stock Price</h2>
+            <h3 id="antStockPrice"></h3>
+            <div style="width:100%;max-width:600px;margin-top:8px;">
+            <canvas id="antStockChart" aria-label="Ants Inds. stock chart" role="img"></canvas>
+            </div>
             <h2>Queen Status:</h2>
             <h3 class="good">Appeased</h3>
             <h4>Sugar Consumed:</h4>
             <p>26.4 Grams</p>
-            <div>
-                <h2>Stock Price</h2>
-                <h3>$0.34</h3>
-                <img src="../img/stock_ticker.png" alt="stock price graph">
-            </div>
         </div>
     </div>
 </body>
